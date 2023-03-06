@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/bojata">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Twitter search query here"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:id="@+id/PrvoID"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PrvoID"
+        android:hint="Tag your query"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="150dp"
+        android:id="@+id/VtoroIDTEXT" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/PrvoID"
+        android:layout_marginLeft="265dp"
+        android:layout_marginRight="5dp"
+        android:text="Save"
+        android:backgroundTint="@color/grey"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/VtoroIDTEXT"
+        android:text="Tagged Searches"
+        android:textAlignment="center"
+        android:id="@+id/Tekst1"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tekst1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="150dp"
+        android:text="AndroidFP"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/Batn1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Tekst1"
+        android:layout_marginLeft="270dp"
+        android:layout_marginRight="20dp"
+        android:text="Edit"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/BUTON1"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/Batn1"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="150dp"
+        android:text="Deitel"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/Batn2"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BUTON1"
+        android:layout_marginLeft="270dp"
+        android:layout_marginRight="20dp"
+        android:text="Edit"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/BUTON2"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Batn2"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="150dp"
+        android:text="Google"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/Batn3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BUTON2"
+        android:layout_marginLeft="270dp"
+        android:layout_marginRight="20dp"
+        android:text="Edit"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/BUTON3"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Batn3"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="150dp"
+        android:text="iPhoneFP"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/Batn4"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/BUTON3"
+        android:layout_marginLeft="270dp"
+        android:layout_marginRight="20dp"
+        android:text="Edit"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/BUTON4"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Batn4"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="150dp"
+        android:text="JavaFP"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/Batn5"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BUTON4"
+        android:layout_marginLeft="270dp"
+        android:layout_marginRight="20dp"
+        android:text="Edit"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/BUTON5"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Batn5"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="150dp"
+        android:text="JavaHTP"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/Batn6"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/BUTON5"
+        android:layout_marginLeft="270dp"
+        android:layout_marginRight="20dp"
+        android:text="Edit"
+        android:backgroundTint="@color/grey"
+        android:id="@+id/BUTON6"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Batn6"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="20dp"
+        android:text="Clear Tags"
+        android:backgroundTint="@color/grey"/>
+</RelativeLayout>
